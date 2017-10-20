@@ -1,0 +1,116 @@
+*{
+padding: 0;
+margin: 0;
+border: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+#container{
+  position: relative;
+  width: 620px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius:  1px;
+}
+#game{
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: rgba(115, 155, 172, 0.29);
+  box-shadow:0 0 10px rgb(132, 166, 180);
+}
+#game div{
+  position: absolute;
+  width: 149px;
+  height: 149px;
+  box-shadow: rgb(147, 172, 175);
+  background-color: rgba(172, 201, 208, 0.63);
+  color: white;
+  text-align: center;
+  font-size: 150px;
+  line-height: 150px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#game div:hover{
+  color: rgb(201, 190, 106);
+}
+#control{
+  width: 150px;
+  height: 450px;
+  display: inline-block;
+  float: right;
+}
+#control rowspan{
+  height: 25px;
+  font-size: 20px;
+  color:black;
+  margin-top: 10px;
+}
+#start{
+  display: inline-block;
+  font-size: 28px;
+  width: 100px;
+  height: 28px;
+  background-color: rgba(59, 223, 41, 0.14);
+  color: black;
+  text-shadow: 1px 1px 2px rgb(154, 182, 201);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(214, 219, 197);
+  text-align: center;
+  cursor: pointer;
+}
+#reset{
+  display: inline-block;
+  font-size: 28px;
+  width: 100px;
+  height: 28px;
+  background-color: rgba(59, 223, 41, 0.14);
+  color: black;
+  text-shadow: 1px 1px 2px rgb(154, 182, 201);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(214, 219, 197);
+  text-align: center;
+  cursor: pointer;
+}
+#liukanshan{
+  margin-top: 200px;
+  border-radius: 5px;
+}
+img{
+  width: 149px;
+  height: 149px;
+}
+#d1{
+  left: 0px;
+}
+#d2{
+  left: 150px;
+}
+#d3{
+  left: 300px;
+}
+#d4{
+  top:  150px;
+}
+#d5{
+  top: 150px;
+  left: 150px;
+}
+#d6{
+  top: 150px;
+  left: 300px;
+}
+#d7{
+  top: 300px;
+  left: 0px;
+}
+#d8{
+  top: 300px;
+  left: 150px;
+}
